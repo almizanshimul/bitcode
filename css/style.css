@@ -573,6 +573,7 @@ section{
 }
 .pricing .content .row .col40 .price{
 	position: relative;
+	width: 428px;
     background: #FFFFFF;
     padding: 40px;
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
