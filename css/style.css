@@ -552,7 +552,7 @@ section{
 }
 /*pricing row */
 .pricing .content .row{
-	max-width: 1349px;
+	width: 1189px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -572,7 +572,6 @@ section{
 
 }
 .pricing .content .row .col40 .price{
-	position: relative;
 	width: 428px;
     background: #FFFFFF;
     padding: 40px;
@@ -580,46 +579,37 @@ section{
 	border-radius: 10px;
 	margin-top: 30px;
 }
-.pricing .content .row .col40 .price .money{
+.pricing .content .row.price .money{
 	font-style: normal;
 	font-weight: bold;
 	font-size: 40px;
 	line-height: 60px;
 	color:#000000;
 }
-.pricing .content .row .col40 .price .money span{
+.pricing .content .row.price .money span{
 	font-style: normal;
 	font-weight: bold;
 	font-size: 20px;
 	line-height: 30px;
 	color:#000000;
-}.pricing .content .row .col40 .price p{
+}.pricing .content .row .price p{
 	font-style: normal;
 	font-weight: normal;
 	font-size: 15px;
 	line-height: 18px;
 	color:#000000;
 }
-.pricing .col40 .price ul{
+.pricing .row .price ul{
 	display: block;
 	margin-top: 10px;
 }
-.pricing .col40 .price ul li{
+.pricing .row .price ul li{
 	margin:10px 5px;
 }
-.pricing .col40 .price img{
+.pricing .row .price img{
+	height: 14px;
+    width: 14px;
 	margin-top: 5px;
-}
-.pricing .content .row .col60{
-	float: left;
-    width: 60%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-    flex-wrap: wrap;
-    /*padding: 40px;
-    margin: 0 10px;*/
 }
 .pricing .content .row .titletext{
 	font-style: normal;
@@ -636,4 +626,22 @@ section{
 	text-align: left;
 	margin-top: 10px;
 }
-
+.pricing .content .row .col60{
+	float: left;
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /*padding: 40px;
+    margin: 0 10px;*/
+}
+.pricing .content .row .col60 .price{
+	width: 710px;
+    background: #0678EE;
+    padding: 40px;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	margin-top: 30px;
+}
