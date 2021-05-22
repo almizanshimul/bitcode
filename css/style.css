@@ -563,15 +563,62 @@ section{
 
 .pricing .content .row .col40{
 	float: left;
-    width: 45%;
+    width: 40%;
     display: flex;
     justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.pricing .content .row .col40 .price{
+	position: relative;
+    background: #FFFFFF;
+    padding: 40px;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	margin-top: 30px;
+}
+.pricing .content .row .col40 .price .money{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 60px;
+	color:#000000;
+}
+.pricing .content .row .col40 .price .money span{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 30px;
+	color:#000000;
+}.pricing .content .row .col40 .price p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+	color:#000000;
+}
+.pricing .col40 .price ul{
+	display: block;
+	margin-top: 10px;
+}
+.pricing .col40 .price ul li{
+	margin:10px 5px;
+}
+.pricing .col40 .price img{
+	margin-top: 5px;
 }
 .pricing .content .row .col60{
 	float: left;
-    width: 55%;
+    width: 60%;
     display: flex;
     justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /*padding: 40px;
+    margin: 0 10px;*/
 }
 .pricing .content .row .titletext{
 	font-style: normal;
