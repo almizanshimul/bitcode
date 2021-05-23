@@ -733,3 +733,149 @@ section{
 	background: #fff;
 	border-radius: 10px;
 }
+
+/*testemonial*/
+
+.testemonial{
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.testemonial .title{
+	width: 1000px;
+	text-align: center;
+}
+.testemonial .title h2{
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 44px;
+	color: #17283F;
+}
+.testemonial .title h2 span{
+	color: #FF4655;
+}
+.testemonial .title p{
+	margin-top: 10px;
+	text-align: center;
+	font-weight: normal;
+	font-size: 15.0087px;
+	line-height: 23px;
+	color: #848199;
+}
+/*faq*/
+
+.faq{
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.faq .title{
+	width: 1349px;
+	text-align: center;
+}
+.faq .title h2{
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 44px;
+	color: #FF4655;
+}
+.faq .title p{
+	margin-top: 10px;
+	text-align: center;
+	font-weight: normal;
+	font-size: 15.0087px;
+	line-height: 23px;
+	color: #848199;
+}
+
+/*FAQ CONTENT*/
+
+.faq .content{
+	width: 1106px;
+	height: 934px;
+	/*display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-direction: column;
+	flex-wrap: wrap;*/
+	background: #FFFFFF;
+	box-shadow: 0px 0px 40px -2px rgba(0, 0, 0, 0.1);
+	border-radius: 20px;
+	padding: 60px 110px;
+	margin-top: 60px;
+}
+.faq .content ul{
+	display: block;
+}
+.faq .content  li{
+	list-style: none;
+	border-bottom: 1px solid #E7E7E7;
+	padding: 20px 0 30px 0; 
+
+}
+.faq .content  li .heading{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.faq .content  li .heading i{
+	margin-right: 30px;
+	padding: 3px;
+    color: #FF4655;
+}
+.faq .content  p{
+	margin: 30px 0 30px 95px;
+	padding-left: 15px;
+	border-left:5px solid #FF4655;
+}
+
+
+/*support*/
+
+.support{
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.support .row{
+	width: 1189px;
+	display: flex;
+	justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #151E36;
+    padding: 50px 272px;
+    border-radius: 44px;
+}
+.support .row .title{
+	width: 380px;
+}
+.support .row .title h3{
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32.4688px;
+	line-height: 49px;
+	color: #FFFFFF;
+}
+.support .row .title p{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 17;
+	line-height: 25px;
+	color: #FFFFFF;
+	margin-top: 20px;
+	opacity: 0.8;
+}
+.support .row .imgbx{
+	position: relative;
+	width: 260px;
+	height: 215px;
+}
+.support .row .imgbx img{
+	position: absolute;
+	top: 0;
+	left: 50px;
+}
