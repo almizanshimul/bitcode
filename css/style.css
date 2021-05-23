@@ -209,7 +209,7 @@ section{
 
 /*mobile reponsibe*/
 	@media only screen and (max-width: 425px) {
-		.banner{width: 640px;}
+		.banner{width: 425px;}
 		.banner .row{width:100%;display: block;}
   		.banner .row .col40 {width: 100%;height: 100%}
   		.banner .row .col60 {width: 100%;height: 100%}
