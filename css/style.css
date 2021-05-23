@@ -579,25 +579,33 @@ section{
 	border-radius: 10px;
 	margin-top: 30px;
 }
-.pricing .content .row.price .money{
+.pricing .content .row .price .money{
 	font-style: normal;
 	font-weight: bold;
 	font-size: 40px;
 	line-height: 60px;
 	color:#000000;
 }
-.pricing .content .row.price .money span{
+.pricing .content .row .price .money span{
 	font-style: normal;
 	font-weight: bold;
 	font-size: 20px;
 	line-height: 30px;
 	color:#000000;
-}.pricing .content .row .price p{
+}
+.pricing .content .row .price p{
 	font-style: normal;
 	font-weight: normal;
 	font-size: 15px;
 	line-height: 18px;
 	color:#000000;
+}
+.pricing .content .row .price .list{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 .pricing .row .price ul{
 	display: block;
@@ -605,11 +613,19 @@ section{
 }
 .pricing .row .price ul li{
 	margin:10px 5px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	color: #797979;
 }
-.pricing .row .price img{
-	height: 14px;
-    width: 14px;
-	margin-top: 5px;
+.pricing .row .price ul li i{
+	padding: 3px;
+    color: #fff;
+    background: #0678EE;
+    border-radius: 50%;
+    margin-right: 6px;
+    opacity: 0.6;
 }
 .pricing .content .row .titletext{
 	font-style: normal;
@@ -644,4 +660,46 @@ section{
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 	border-radius: 10px;
 	margin-top: 30px;
+}
+.pricing .content .row .col60 .price .money{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 60px;
+	color:#fff;
+}
+.pricing .content .row .col60 .price .money span{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 30px;
+	color:#fff;
+}
+.pricing .content .row .col60 .price p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+	color: #FFFFFF;
+	opacity: 0.6;
+}
+.pricing .row .col60 .price ul{
+	display: block;
+	margin-top: 10px;
+}
+.pricing .row .col60 .price ul li{
+	margin:10px 5px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	color: #fff;
+}
+.pricing .row .col60 .price ul li i{
+	padding: 3px;
+    color: #0678EE;
+    background: #fff;
+    border-radius: 50%;
+    margin-right: 6px;
+    opacity: 0.6;
 }
