@@ -206,18 +206,6 @@ section{
 	height: 100%;
 	object-fit: cover;
 }
-
-/*mobile reponsibe*/
-	@media only screen and (max-width: 425px) {
-		.banner{width: 425px;}
-		.banner .row{width:100%;display: block;}
-  		.banner .row .col40 {width: 100%;height: 100%}
-  		.banner .row .col60 {width: 100%;height: 100%}
-  		.banner .row .col60 .imgbx{
-	position: relative;
-	width: 100%;
-	height: 100%;
-}
 .banner .row .col60 .imgbx img{
 	position: absolute;
 	top: 0px;
@@ -226,6 +214,33 @@ section{
 	height: 100%;
 	object-fit: cover;
 }
+
+/*mobile reponsibe*/
+	@media only screen and (max-width: 600px) {
+		.banner .row {
+    flex-direction: column;
+}
+    .banner .row .col40 {
+    width: 100%;
+}
+    .banner .row .col40 .titletext {
+    font-size: 46px;
+    line-height: 55px;
+}
+    .review i {
+    font-size: 12px;
+}
+    .row .col40 .btn .btn-life {
+    padding: 18px 30px;
+}
+    .row .col40 .btn .btn-try {
+    padding: 18px 25px;
+}
+    .banner .row .col60{
+    width: 100%;
+    height: 350px;
+}
+		
 }
 
 /*<!-- Professional & Easy To Use WordPress Form Builder
