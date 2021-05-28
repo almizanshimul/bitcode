@@ -1,0 +1,263 @@
+	@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-transform: capitalize;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	background-color: #F2F4FF;
+}
+	/*banner section start*/
+
+section{
+	padding: 0 80px 40px;
+
+}
+.banner{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner .row{
+	width: 1349px;
+	min-height: 500px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 40px;
+}
+.banner .row .col40{
+	width: 40%;
+	height: 100%;
+}
+.banner .row .col40 .titletext{
+	font-style: normal;
+	font-weight: 600;
+	font-size: 60px;
+	line-height: 133.5%;
+}
+.banner .row .col40 p{
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 34px;
+	color: #4F5B6D;
+	margin-top: 15px;
+}
+.titletext{
+color: #17283F;
+}
+
+/*banner second column
+*/
+.banner .row .col60{
+	width: 60%;
+}
+.banner .row .col60 .imgbx img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+
+/*Our Product*/
+
+.product{
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.product .title{
+	text-align: center;
+}
+.product .title h2{
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 44px;
+	color: #17283F;
+}
+.product .title h2 span{
+	color: #FF4655;
+}
+.product .title p{
+	margin-top: 10px;
+	font-family:  'Lato', sans-serif;;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 30px;
+	text-align: center;
+	color: #4F5B6D;
+}
+
+/*Product Content*/
+
+.product .content{
+	width: 1349px;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 50px;
+}
+
+.product .content .card{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 300px;
+	height: fit-content;
+	padding: 50px;
+	background: #FFFFFF;
+	box-shadow: 16px 16px 40px 2px rgba(0, 0, 0, 0.05);
+	border-radius: 25px;
+	margin: 20px;
+	transition: 0.5s;
+}
+/*.product .content .active{
+	border: 1px solid #fff;
+	box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+}
+.product .content .card:hover{
+	border: 1px solid #fff;
+	box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+}*/
+.product .content .card img{
+	width: auto;
+	height: 59px;
+}
+.product .content .card .title .titletext{
+	font-family:  'Lato', sans-serif;;
+	font-style: normal;
+	color: #17283F;
+	font-weight: 800;
+	font-size: 21.0127px;
+	line-height: 133.5%;
+	margin:18px 0;
+}
+.product .content .card .title p{
+	font-family:  'Lato', sans-serif;;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 30px;
+	text-align: center;
+	color: #4F5B6D;
+}
+.product .content .card .title .btn{
+		display: inherit;
+		margin-top: 30px;
+}
+.product .content .card .title a{
+	font-family:  'Lato', sans-serif;;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #FF4655;;
+	text-decoration: none;
+}
+.product .content .card .title .btn i{
+	font-style: normal;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 24px;
+	color: #FF4655;;
+	margin: 0 5px;
+}
+
+/*Glance Section-------------------------------*/
+.glance{
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.glance .content{
+	width: 900px;
+	height: 330px;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: #ffffff;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 30px;
+	padding: 45px;
+}
+.glance .titletext{
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 38px;
+	line-height: 44px;
+	color: #17283F;
+}
+.glance h2 span{
+	color: #FF4655;
+}
+.glance .content .card{
+	width: 100px;
+	margin: 30px;
+	text-align: center;
+}
+.glance .content .card img{
+	width: 80px;
+	padding: 20px;
+	border-radius: 50%;
+	background: #FFFFFF;
+	box-shadow: 0px 4.68712px 11.7178px rgba(0, 0, 0, 0.13);
+}
+.glance .content .card .h3{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28.1227px;
+	line-height: 35px;
+	text-align: center;
+	color: #17283F;
+}
+.glance .content .card p{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17.5767px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: 0.164049px;
+	color: #4F5B6D;
+}
+
+
+/* map Section-------------------------------*/
+.map{
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.map .titletext{
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 38px;
+	line-height: 44px;
+	color: #17283F;
+}
+.map .titletext span{
+	color: #FF4655;
+}
+.map .imgbx{
+	text-align: center;
+	margin-top: 100px;
+}
+.map .imgbx img{
+	width: 80%;
+}
