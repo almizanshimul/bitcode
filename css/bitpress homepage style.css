@@ -261,3 +261,52 @@ color: #17283F;
 .map .imgbx img{
 	width: 80%;
 }
+
+
+/*support------------------------------*/
+
+.support{
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.support .row{
+	width: 1189px;
+	display: flex;
+	justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #151E36;
+    padding: 50px 200px;
+    border-radius: 44px;
+}
+.support .row .title{
+	width: 380px;
+}
+.support .row .title h3{
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32.4688px;
+	line-height: 49px;
+	color: #FFFFFF;
+}
+.support .row .title p{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 17;
+	line-height: 25px;
+	color: #FFFFFF;
+	margin-top: 20px;
+	opacity: 0.8;
+}
+.support .row .imgbx{
+	position: relative;
+	width: 260px;
+	height: 215px;
+}
+.support .row .imgbx img{
+	position: absolute;
+	top: 0;
+	left: 50px;
+}
